@@ -6,7 +6,7 @@ from firebase import firebase
 screen = pygame.display.set_mode((600,600))
 pygame.display.set_caption("Car Racing Game")
 
-# TA3 Step 1: Replace databse URL with the database created in TA1
+# TA3 Step 1: Replace databse URL with the car racing database URL created in TA1
 db = firebase.FirebaseApplication("CAR RACING DATABASE LINK", None)
    
 class Player:
